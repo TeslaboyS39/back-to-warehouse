@@ -1,35 +1,47 @@
 # Back to Warehouse
 
-**Back to Warehouse** adalah game aksi 2D bertema survival horror di mana kamu harus bertahan dari gelombang zombie sambil menuju tempat aman yakni warehouse tempat kamu bekerja yang mana sudah menjadi safe zone bahkan stronghold di kota tersebut. Dibangun dengan HTML5 Canvas dan JavaScript, game ini menawarkan pengalaman seru dengan mekanik sederhana namun menantang.
+**Back to Warehouse** is a 2D survival horror action game where you must fend off waves of zombies to reach the safety of your old workplace—a warehouse now transformed into a safe zone and stronghold amidst a ravaged city. Built with HTML5 Canvas and JavaScript, this game delivers an intense yet accessible experience with simple yet challenging mechanics.
 
-## Deskripsi
-Dalam dunia pasca-apokaliptik yang penuh kehancuran, kamu berlari menghindari zombie biasa, tank, runner cepat, hingga boss raksasa yang menghadang setiap 700 poin. Lengkapi diri dengan pistol, minigun, atau RPG, dan gunakan strategi untuk bertahan hidup melawan berbagai macam varian mayat hidup yang siap menyerang mu!
+## Description
+In a post-apocalyptic world drowned in chaos, you sprint through hordes of zombies—regular grunts, hulking tanks, swift runners, and colossal bosses that emerge every 700 points. Arm yourself with a pistol, minigun, or RPG, and strategize to survive against a relentless onslaught of the undead!
 
-## Fitur
-- **Gameplay Dinamis**: Berlari, melompat, dan menembak untuk bertahan dari zombie.
-- **Variasi Zombie**: 
-  - Normal (2 HP), Tank (10 HP), Runner (1 HP, cepat, hanya bisa ditembak saat crouch).
-  - Boss (50 HP) muncul tiap kelipatan 700 poin dengan serangan pola (atas, tengah, bawah, cepat).
-- **Senjata**: Pistol (default), Minigun (75 ammo), RPG (3 ammo, 15 damage).
-- **Kontrol**: 
-  - `Space`: Melompat.
-  - `F`: Menembak.
-  - `S`: Crouch (wajib untuk tembak runner).
-  - `P`: Pause (menu pop-up).
-- **Visual**: 
-  - Efek layar goyang saat boss muncul.
-  - Burung beterbangan di langit.
-  - Siklus siang-malam tiap 700 poin.
-- **UI**: Splash screen "Back to Warehouse" dengan fade, menu pause, HUD dengan senjata/ammo/skor.
+## Features
+- **Dynamic Gameplay**: Run, jump, and shoot to outlast the zombie hordes.
+- **Zombie Variants**: 
+  - Normal (2 HP), Tank (10 HP), Runner (1 HP, fast, can only be shot while crouching).
+  - Boss (50 HP) spawns every 700 points with patterned attacks (high, mid, low, rapid-fire).
+- **Weapons**: Pistol (default), Minigun (75 ammo), RPG (3 ammo, 15 damage).
+- **Controls**: 
+  - `Space`: Jump.
+  - `F`: Shoot.
+  - `S`: Crouch (required to hit runners).
+  - `P`: Pause (pop-up menu).
+- **Visuals**: 
+  - Screen-shake effect when bosses appear.
+  - Flocks of birds soaring in the sky.
+  - Day-night cycle every 700 points.
+- **UI**: "Back to Warehouse" splash screen with fade, pause menu, HUD displaying weapon/ammo/score.
 
-## Cara Bermain
-1. Pilih tingkat kesulitan (Easy/Medium/Hardcore) di main menu.
-2. Gunakan `Space` untuk lompat, `F` untuk tembak, dan `S` untuk crouch.
-3. Hindari zombie dan serangan boss, kumpulkan ammo/weapon pickups.
-4. Kalahkan boss tiap 700 poin untuk lanjut.
+## How to Play
+1. Select difficulty (Easy/Medium/Hardcore) from the main menu.
+2. Use `Space` to jump, `F` to shoot, and `S` to crouch.
+3. Dodge zombies and boss attacks while collecting ammo and weapon pickups.
+4. Defeat bosses every 700 points to progress.
 
-## Instalasi
-1. Clone repository ini:
+## Installation
+1. Clone this repository:
    ```bash
    git clone https://github.com/TeslaboyS39/back-to-warehouse.git
-2. Buka index.html di browser atau gunakan server lokal (contoh: VS Code Live Server).
+
+## Requirements
+-Modern browser (Chrome, Firefox, etc.).
+-Internet connection (for Creepster font from Google Fonts).
+
+## Contributing
+Feel free to fork this repo and submit pull requests for new features or bug fixes!
+
+## License
+MIT License - free to use and modify.
+
+## Created by
+TeslaboyS39
