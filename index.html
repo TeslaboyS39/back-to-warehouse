@@ -16,10 +16,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            color: #ff3333; /* Merah darah */
+            color: #ff3333;
             font-size: 48px;
-            font-family: 'Creepster', cursive; /* Font horror */
-            transition: opacity 1s ease-out; /* Fade out 1 detik */
+            font-family: 'Creepster', cursive;
+            transition: opacity 1s ease-out;
         }
         #splashScreen.fade-out {
             opacity: 0;
@@ -36,7 +36,7 @@
             font-family: Arial, sans-serif;
         }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet"> <!-- Font Creepster -->
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
 <body>
     <canvas id="gameCanvas" width="800" height="400"></canvas>
@@ -62,6 +62,15 @@
         <button id="resumeButton">Resume</button><br><br>
         <button id="pauseToMainMenuButton">Main Menu</button>
     </div>
+    <script src="enemies.js"></script>
+    <script src="background.js"></script>
+    <script src="weapons.js"></script>
+    <script src="player.js"></script>
+    <script src="particles.js"></script>
+    <script src="ui.js"></script>
+    <script src="state.js"></script>
+    <script src="config.js"></script>
+    <script src="events.js"></script>
     <script src="game.js"></script>
 </body>
 </html>
